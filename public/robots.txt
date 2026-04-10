@@ -4,4 +4,4 @@ Allow: /
 # Disallow crawling of locale root redirects to save crawl budget
 Disallow: /*.json$
 
-Sitemap: https://www.maintenancevolt.com/sitemap.xml
+Sitemap: https://www.maintenance-volt.com/sitemap.xml
