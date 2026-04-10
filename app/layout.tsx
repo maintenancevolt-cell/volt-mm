@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "krNmWU2WKXziw",
+    google: "krNmWU2WKXziwb4emr4GtIVhQ2hTVrYMFPe6lOz6gFw",
   },
   openGraph: {
     siteName: "Volt Maintenance | صيانة فولت",
