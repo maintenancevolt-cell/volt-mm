@@ -10,7 +10,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.maintenancevolt.com"),
+  metadataBase: new URL("https://www.maintenance-volt.com"),
   title: {
     default: "صيانة فولت | Volt Maintenance",
     template: "%s",

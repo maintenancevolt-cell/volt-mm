@@ -1,32 +1,32 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://www.maintenancevolt.com',
+  siteUrl: "https://www.maintenance-volt.com",
   generateRobotsTxt: true,
-  outDir: './out',
+  outDir: "./out",
   trailingSlash: true,
   transform: async (config, path) => {
-    if (path === '/ar/' || path === '/en/') {
+    if (path === "/ar/" || path === "/en/") {
       return {
         loc: path,
-        changefreq: 'daily',
+        changefreq: "daily",
         priority: 1.0,
         lastmod: new Date().toISOString(),
       };
     }
 
-    if (path.includes('/about/') || path.includes('/contact/')) {
+    if (path.includes("/about/") || path.includes("/contact/")) {
       return {
         loc: path,
-        changefreq: 'monthly',
+        changefreq: "monthly",
         priority: 0.7,
         lastmod: new Date().toISOString(),
       };
     }
 
-    if (path === '/') {
+    if (path === "/") {
       return {
         loc: path,
-        changefreq: 'daily',
+        changefreq: "daily",
         priority: 0.5,
         lastmod: new Date().toISOString(),
       };
@@ -34,7 +34,7 @@ module.exports = {
 
     return {
       loc: path,
-      changefreq: 'weekly',
+      changefreq: "weekly",
       priority: 0.9,
       lastmod: new Date().toISOString(),
     };
@@ -42,8 +42,8 @@ module.exports = {
   robotsTxtOptions: {
     policies: [
       {
-        userAgent: '*',
-        allow: '/',
+        userAgent: "*",
+        allow: "/",
       },
     ],
   },
