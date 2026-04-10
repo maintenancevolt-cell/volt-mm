@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of locale root redirects to save crawl budget
+Disallow: /*.json$
+
+Sitemap: https://www.maintenancevolt.com/sitemap.xml
