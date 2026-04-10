@@ -111,7 +111,7 @@ export function generateServiceSchema(service: Service, locale: Locale) {
   };
 }
 
-export function generateFAQSchema(faqs: { question: string; answer: string }[]) {
+export function generateFAQSchema(faqs: readonly { readonly question: string; readonly answer: string }[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
