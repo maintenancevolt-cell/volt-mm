@@ -1,0 +1,44 @@
+import type { Locale } from './i18n';
+
+export const siteConfig = {
+  name: 'Volt Maintenance',
+  nameAr: 'فولت للصيانة',
+  url: 'https://www.maintenancevolt.com',
+  phone: '+962796362523',
+  phoneDisplay: '0796362523',
+  whatsapp: 'https://wa.me/962796362523',
+  address: {
+    ar: 'المدينة الرياضية - حي الخرابشة، عمان، الأردن',
+    en: 'Sports City - Al Kharabsheh, Amman, Jordan',
+  },
+  addressLocality: 'عمان',
+  addressCountry: 'JO',
+  latitude: '31.9539',
+  longitude: '35.9106',
+  description: {
+    ar: 'شركة فولت للصيانة - أفضل خدمات صيانة وتصليح الأجهزة المنزلية في عمان، الأردن.',
+    en: 'Volt Maintenance - The best home appliance repair services in Amman, Jordan.',
+  },
+  workingHours: {
+    ar: 'السبت - الخميس: 8:00 صباحاً - 10:00 مساءً',
+    en: 'Saturday - Thursday: 8:00 AM - 10:00 PM',
+  },
+  workingDays: ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday'],
+  opensAt: '08:00',
+  closesAt: '22:00',
+};
+
+export const serviceAreas: Record<Locale, string[]> = {
+  ar: [
+    'المدينة الرياضية', 'حي الخرابشة', 'طبربور', 'الجبيهة', 'شفا بدران',
+    'أبو نصير', 'خلدا', 'تلاع العلي', 'صويلح', 'ضاحية الرشيد',
+    'مرج الحمام', 'المقابلين', 'الشميساني', 'أم السماق', 'جبل الحسين',
+    'جبل عمان', 'الزرقاء',
+  ],
+  en: [
+    'Sports City', 'Al Kharabsheh', 'Tabarbour', 'Al Jubeiha', 'Shafa Badran',
+    'Abu Nsair', 'Khalda', "Tla' Al Ali", 'Sweileh', 'Dahiyat Al Rasheed',
+    'Marj Al Hamam', 'Al Muqabalain', 'Shmeisani', 'Um Al Summaq', 'Jabal Al Hussein',
+    'Jabal Amman', 'Zarqa',
+  ],
+};
