@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next:*)",
+      "Bash(cmd /c \"rmdir /s /q .next\")",
+      "Bash(tasklist)"
+    ]
+  }
+}
