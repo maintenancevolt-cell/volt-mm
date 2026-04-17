@@ -27,7 +27,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
       : 'home appliance repair, washing machine repair, refrigerator repair, ac repair, electrician, amman, jordan',
     alternates: {
       canonical: `/${locale}/`,
-      languages: { ar: '/ar/', en: '/en/' },
+      languages: { ar: '/ar/', en: '/en/', 'x-default': '/ar/' },
     },
     openGraph: {
       title: tr.home.metaTitle,
