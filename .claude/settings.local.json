@@ -6,7 +6,9 @@
       "Bash(npx next:*)",
       "Bash(cmd /c \"rmdir /s /q .next\")",
       "Bash(tasklist)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(find /c/Users/user/Desktop/volt-mm -maxdepth 2 -type d -not -path */node_modules* -not -path */.next* -not -path */.git*)",
+      "Bash(taskkill /F /IM node.exe)"
     ]
   }
 }

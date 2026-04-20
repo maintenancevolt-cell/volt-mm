@@ -4,11 +4,12 @@ import {
   Phone, MessageCircle, ChevronLeft, ChevronRight, MapPin,
   Wrench, Thermometer, Wind, Flame, UtensilsCrossed, Shirt, Zap,
   TriangleAlert as AlertTriangle, CircleCheck as CheckCircle2, ArrowLeft, ArrowRight,
-  Shield, Clock, Award, Star,
+  Shield, Clock, Award, Star, HelpCircle,
 } from 'lucide-react';
 import { type Service, getRelatedServices, getServiceContent, getServiceSlug, getServiceBrands } from '@/data/services';
 import { siteConfig, serviceAreas } from '@/data/site-data';
 import { t, type Locale } from '@/data/i18n';
+import { getFAQArticlesByServiceId } from '@/data/faq-articles';
 import FAQAccordion from '@/components/FAQAccordion';
 import CTASection from '@/components/CTASection';
 
@@ -286,6 +287,43 @@ export default function ServicePage({ service, locale }: { service: Service; loc
           </div>
         </div>
       </section>
+
+      {/* Related FAQ Articles — Arabic only */}
+      {locale === 'ar' && (() => {
+        const faqItems = getFAQArticlesByServiceId(service.id);
+        if (faqItems.length === 0) return null;
+        return (
+          <section className="py-16 md:py-20 bg-blue-50">
+            <div className="container-custom">
+              <h2 className="text-2xl md:text-3xl font-extrabold text-navy text-center mb-3">
+                مقالات متعلقة
+              </h2>
+              <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+                إجابات بالعامية الأردنية على أشهر أسئلتكم عن هاد الجهاز
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+                {faqItems.map((article) => (
+                  <Link
+                    key={article.slug}
+                    href={`/ar/faq/${article.slug}/`}
+                    className="flex items-start gap-3 bg-white p-5 rounded-2xl border border-blue-100 hover:border-blue-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 group"
+                  >
+                    <HelpCircle className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5 group-hover:text-blue-600" />
+                    <div>
+                      <p className="font-bold text-navy text-sm group-hover:text-blue-600 transition-colors mb-1">
+                        {article.title}
+                      </p>
+                      <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">
+                        {article.shortDescription}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       <CTASection locale={locale} />
     </>
