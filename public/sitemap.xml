@@ -202,4 +202,136 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- ===== FAQ / BLOG SECTION ===== -->
+
+  <!-- FAQ INDEX -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 1: غسالتي ما بتشتغل شو اسوي -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D8%BA%D8%B3%D8%A7%D9%84%D8%AA%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D8%BA%D8%B3%D8%A7%D9%84%D8%AA%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D8%BA%D8%B3%D8%A7%D9%84%D8%AA%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D8%B4%D8%AA%D8%BA%D9%84-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 2: كم تكلف صيانة الغسالة بالاردن -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D8%AA%D9%83%D9%84%D9%81-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%BA%D8%B3%D8%A7%D9%84%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D8%AA%D9%83%D9%84%D9%81-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%BA%D8%B3%D8%A7%D9%84%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D8%AA%D9%83%D9%84%D9%81-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%BA%D8%B3%D8%A7%D9%84%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 3: ثلاجتي ما بتبرد شو السبب -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D8%AB%D9%84%D8%A7%D8%AC%D8%AA%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D8%A8%D8%B1%D8%AF-%D8%B4%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D8%AB%D9%84%D8%A7%D8%AC%D8%AA%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D8%A8%D8%B1%D8%AF-%D8%B4%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D8%AB%D9%84%D8%A7%D8%AC%D8%AA%D9%8A-%D9%85%D8%A7-%D8%A8%D8%AA%D8%A8%D8%B1%D8%AF-%D8%B4%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 4: كم تكلف صيانة الثلاجة بعمان -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D8%AA%D9%83%D9%84%D9%81-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AC%D8%A9-%D8%A8%D8%B9%D9%85%D8%A7%D9%86/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D8%AA%D9%83%D9%84%D9%81-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AC%D8%A9-%D8%A8%D8%B9%D9%85%D8%A7%D9%86/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D8%AA%D9%83%D9%84%D9%81-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AC%D8%A9-%D8%A8%D8%B9%D9%85%D8%A7%D9%86/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 5: مكيف ما بيبرد شو المشكلة -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%85%D9%83%D9%8A%D9%81-%D9%85%D8%A7-%D8%A8%D9%8A%D8%A8%D8%B1%D8%AF-%D8%B4%D9%88-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%85%D9%83%D9%8A%D9%81-%D9%85%D8%A7-%D8%A8%D9%8A%D8%A8%D8%B1%D8%AF-%D8%B4%D9%88-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%85%D9%83%D9%8A%D9%81-%D9%85%D8%A7-%D8%A8%D9%8A%D8%A8%D8%B1%D8%AF-%D8%B4%D9%88-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 6: كم مرة لازم اصلح المكيف بالسنة -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D9%85%D8%B1%D8%A9-%D9%84%D8%A7%D8%B2%D9%85-%D8%A7%D8%B5%D9%84%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D9%8A%D9%81-%D8%A8%D8%A7%D9%84%D8%B3%D9%86%D8%A9/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D9%85%D8%B1%D8%A9-%D9%84%D8%A7%D8%B2%D9%85-%D8%A7%D8%B5%D9%84%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D9%8A%D9%81-%D8%A8%D8%A7%D9%84%D8%B3%D9%86%D8%A9/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%85-%D9%85%D8%B1%D8%A9-%D9%84%D8%A7%D8%B2%D9%85-%D8%A7%D8%B5%D9%84%D8%AD-%D8%A7%D9%84%D9%85%D9%83%D9%8A%D9%81-%D8%A8%D8%A7%D9%84%D8%B3%D9%86%D8%A9/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 7: فرن الغاز ما بيشتعل شو اسوي -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%81%D8%B1%D9%86-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D9%85%D8%A7-%D8%A8%D9%8A%D8%B4%D8%AA%D8%B9%D9%84-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%81%D8%B1%D9%86-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D9%85%D8%A7-%D8%A8%D9%8A%D8%B4%D8%AA%D8%B9%D9%84-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%81%D8%B1%D9%86-%D8%A7%D9%84%D8%BA%D8%A7%D8%B2-%D9%85%D8%A7-%D8%A8%D9%8A%D8%B4%D8%AA%D8%B9%D9%84-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 8: جلاية ما بتغسل منيح شو السبب -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D8%AC%D9%84%D8%A7%D9%8A%D8%A9-%D9%85%D8%A7-%D8%A8%D8%AA%D8%BA%D8%B3%D9%84-%D9%85%D9%86%D9%8A%D8%AD-%D8%B4%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D8%AC%D9%84%D8%A7%D9%8A%D8%A9-%D9%85%D8%A7-%D8%A8%D8%AA%D8%BA%D8%B3%D9%84-%D9%85%D9%86%D9%8A%D8%AD-%D8%B4%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D8%AC%D9%84%D8%A7%D9%8A%D8%A9-%D9%85%D8%A7-%D8%A8%D8%AA%D8%BA%D8%B3%D9%84-%D9%85%D9%86%D9%8A%D8%AD-%D8%B4%D9%88-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 9: حماصة ما بتجفف شو المشكلة -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D8%AD%D9%85%D8%A7%D8%B5%D8%A9-%D9%85%D8%A7-%D8%A8%D8%AA%D8%AC%D9%81%D9%81-%D8%B4%D9%88-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D8%AD%D9%85%D8%A7%D8%B5%D8%A9-%D9%85%D8%A7-%D8%A8%D8%AA%D8%AC%D9%81%D9%81-%D8%B4%D9%88-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D8%AD%D9%85%D8%A7%D8%B5%D8%A9-%D9%85%D8%A7-%D8%A8%D8%AA%D8%AC%D9%81%D9%81-%D8%B4%D9%88-%D8%A7%D9%84%D9%85%D8%B4%D9%83%D9%84%D8%A9/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 10: كهربا البيت وقعت شو اسوي -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%83%D9%87%D8%B1%D8%A8%D8%A7-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D9%88%D9%82%D8%B9%D8%AA-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%87%D8%B1%D8%A8%D8%A7-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D9%88%D9%82%D8%B9%D8%AA-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%83%D9%87%D8%B1%D8%A8%D8%A7-%D8%A7%D9%84%D8%A8%D9%8A%D8%AA-%D9%88%D9%82%D8%B9%D8%AA-%D8%B4%D9%88-%D8%A7%D8%B3%D9%88%D9%8A/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 11: افضل شركة صيانة اجهزة منزلية عمان -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D8%A7%D9%81%D8%B6%D9%84-%D8%B4%D8%B1%D9%83%D8%A9-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D8%AC%D9%87%D8%B2%D8%A9-%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D8%B9%D9%85%D8%A7%D9%86/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D8%A7%D9%81%D8%B6%D9%84-%D8%B4%D8%B1%D9%83%D8%A9-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D8%AC%D9%87%D8%B2%D8%A9-%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D8%B9%D9%85%D8%A7%D9%86/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D8%A7%D9%81%D8%B6%D9%84-%D8%B4%D8%B1%D9%83%D8%A9-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D8%AC%D9%87%D8%B2%D8%A9-%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D8%B9%D9%85%D8%A7%D9%86/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ 12: فني صيانة عمان باليوم -->
+  <url>
+    <loc>https://www.maintenance-volt.com/ar/faq/%D9%81%D9%86%D9%8A-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%B9%D9%85%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D9%8A%D9%88%D9%85/</loc>
+    <xhtml:link rel="alternate" hreflang="ar"        href="https://www.maintenance-volt.com/ar/faq/%D9%81%D9%86%D9%8A-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%B9%D9%85%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D9%8A%D9%88%D9%85/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.maintenance-volt.com/ar/faq/%D9%81%D9%86%D9%8A-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%B9%D9%85%D8%A7%D9%86-%D8%A8%D8%A7%D9%84%D9%8A%D9%88%D9%85/"/>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
