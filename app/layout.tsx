@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: "Volt Maintenance | صيانة فولت",
     images: [
       {
-        url: "/logo_png-01.png",
+        url: "/logo_png-01.webp",
         width: 800,
         height: 600,
         alt: "Volt Maintenance - صيانة أجهزة منزلية عمان",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/logo_png-01.png"],
+    images: ["/logo_png-01.webp"],
   },
 };
 

@@ -56,7 +56,7 @@ export function generateMetadata({ params }: { params: { locale: string; slug: s
         {
           url: service.image
             ? `${siteConfig.url}${service.image}`
-            : `${siteConfig.url}/logo_png-01.png`,
+            : `${siteConfig.url}/logo_png-01.webp`,
           width: 800,
           height: 600,
           alt: content.h1,
@@ -70,7 +70,7 @@ export function generateMetadata({ params }: { params: { locale: string; slug: s
       images: [
         service.image
           ? `${siteConfig.url}${service.image}`
-          : `${siteConfig.url}/logo_png-01.png`,
+          : `${siteConfig.url}/logo_png-01.webp`,
       ],
     },
     robots: {

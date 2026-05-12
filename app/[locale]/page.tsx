@@ -38,7 +38,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
       type: 'website',
       images: [
         {
-          url: `${siteConfig.url}/logo_png-01.png`,
+          url: `${siteConfig.url}/logo_png-01.webp`,
           width: 800,
           height: 600,
           alt: locale === 'ar'
@@ -51,7 +51,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
       card: 'summary_large_image',
       title: tr.home.metaTitle,
       description: tr.home.metaDesc,
-      images: [`${siteConfig.url}/logo_png-01.png`],
+      images: [`${siteConfig.url}/logo_png-01.webp`],
     },
     robots: {
       index: true,

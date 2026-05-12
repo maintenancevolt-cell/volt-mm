@@ -26,7 +26,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
     openGraph: {
       images: [
         {
-          url: `${siteConfig.url}/logo_png-01.png`,
+          url: `${siteConfig.url}/logo_png-01.webp`,
           width: 800,
           height: 600,
           alt: 'Volt Maintenance - صيانة فولت',
@@ -35,7 +35,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
     },
     twitter: {
       card: 'summary_large_image',
-      images: [`${siteConfig.url}/logo_png-01.png`],
+      images: [`${siteConfig.url}/logo_png-01.webp`],
     },
   };
 }
