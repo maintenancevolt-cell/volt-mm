@@ -17,7 +17,7 @@ export default function Footer({ locale }: { locale: Locale }) {
           <div>
             <Link href={`/${locale}/`} className="inline-block mb-4">
               <Image
-                src="/logo_png-01.png"
+                src="/logo_png-01.webp"
                 alt="Volt Maintenance"
                 width={160}
                 height={56}

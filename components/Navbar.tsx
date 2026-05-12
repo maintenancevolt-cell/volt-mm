@@ -37,7 +37,7 @@ export default function Navbar({ locale }: { locale: Locale }) {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href={`/${locale}/`} className="flex items-center group">
             <Image
-              src="/logo_png-01.png"
+              src="/logo_png-01.webp"
               alt="Volt Maintenance"
               width={140}
               height={48}

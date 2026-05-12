@@ -47,7 +47,7 @@ export function generateMetadata({
       type: 'website',
       images: [
         {
-          url: `${BASE}/logo_png-01.png`,
+          url: `${BASE}/logo_png-01.webp`,
           width: 800,
           height: 600,
           alt: 'فولت للصيانة - أسئلة شائعة',

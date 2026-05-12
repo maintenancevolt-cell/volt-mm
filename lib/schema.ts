@@ -12,10 +12,10 @@ export function generateLocalBusinessSchema(locale: Locale) {
     url: siteConfig.url,
     telephone: siteConfig.phone,
     description: siteConfig.description[locale],
-    image: `${siteConfig.url}/logo_png-01.png`,
+    image: `${siteConfig.url}/logo_png-01.webp`,
     logo: {
       '@type': 'ImageObject',
-      url: `${siteConfig.url}/logo_png-01.png`,
+      url: `${siteConfig.url}/logo_png-01.webp`,
     },
     address: {
       '@type': 'PostalAddress',

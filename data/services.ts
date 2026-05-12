@@ -25,7 +25,7 @@ export const services: Service[] = [
     id: 'washing-machines',
     slugs: { ar: 'صيانة-غسالات-عمان', en: 'washing-machine-repair-amman' },
     icon: 'Wrench',
-    image: '/WhatsApp_Image_2026-03-27_at_2.12.56_PM_(2).jpeg',
+    image: '/WhatsApp_Image_2026-03-27_at_2.12.56_PM_(2).webp',
     brands: {
       ar: ['سامسونج', 'بيكو', 'ال جي', 'اريستون', 'بوش', 'سيمنز', 'دايو', 'كاندي', 'ويرلبول'],
       en: ['Samsung', 'Beko', 'LG', 'Ariston', 'Bosch', 'Siemens', 'Daewoo', 'Candy', 'Whirlpool'],
@@ -88,7 +88,7 @@ export const services: Service[] = [
     id: 'refrigerators',
     slugs: { ar: 'تصليح-ثلاجات-عمان', en: 'refrigerator-repair-amman' },
     icon: 'Thermometer',
-    image: '/WhatsApp_Image_2026-03-27_at_2.12.57_PM_(1).jpeg',
+    image: '/WhatsApp_Image_2026-03-27_at_2.12.57_PM_(1).webp',
     brands: {
       ar: ['سامسونج', 'بيكو', 'ال جي', 'شارب', 'توشيبا', 'هيتاشي', 'فريجيدير'],
       en: ['Samsung', 'Beko', 'LG', 'Sharp', 'Toshiba', 'Hitachi', 'Frigidaire'],
@@ -151,7 +151,7 @@ export const services: Service[] = [
     id: 'air-conditioners',
     slugs: { ar: 'صيانة-مكيفات-عمان', en: 'ac-repair-amman' },
     icon: 'Wind',
-    image: '/WhatsApp_Image_2026-03-27_at_2.12.57_PM.jpeg',
+    image: '/WhatsApp_Image_2026-03-27_at_2.12.57_PM.webp',
     brands: {
       ar: ['جري', 'سامسونج', 'ال جي', 'بترا', 'كاريير', 'ميديا', 'هاير'],
       en: ['Gree', 'Samsung', 'LG', 'Petra', 'Carrier', 'Midea', 'Haier'],
@@ -214,7 +214,7 @@ export const services: Service[] = [
     id: 'gas-ovens',
     slugs: { ar: 'صيانة-افران-غاز-عمان', en: 'gas-oven-repair-amman' },
     icon: 'Flame',
-    image: '/WhatsApp_Image_2026-03-27_at_2.12.56_PM.jpeg',
+    image: '/WhatsApp_Image_2026-03-27_at_2.12.56_PM.webp',
     brands: {
       ar: ['اريستون', 'بيكو', 'لوفرا', 'بومبياني', 'تيكنوغاز', 'يونيفرسال'],
       en: ['Ariston', 'Beko', 'Lofra', 'Bompani', 'Tecnogas', 'Universal'],
@@ -275,7 +275,7 @@ export const services: Service[] = [
     id: 'dishwashers',
     slugs: { ar: 'صيانة-جلايات-عمان', en: 'dishwasher-repair-amman' },
     icon: 'UtensilsCrossed',
-    image: '/1.png',
+    image: '/1.webp',
     brands: {
       ar: ['بيكو', 'بوش', 'سيمنز', 'سامسونج', 'ال جي', 'اريستون'],
       en: ['Beko', 'Bosch', 'Siemens', 'Samsung', 'LG', 'Ariston'],
@@ -336,7 +336,7 @@ export const services: Service[] = [
     id: 'dryers',
     slugs: { ar: 'صيانة-حمصات-عمان', en: 'dryer-repair-amman' },
     icon: 'Shirt',
-    image: '/2.png',
+    image: '/2.webp',
     brands: {
       ar: ['بيكو', 'سامسونج', 'ال جي', 'بوش', 'سيمنز', 'كاندي'],
       en: ['Beko', 'Samsung', 'LG', 'Bosch', 'Siemens', 'Candy'],
@@ -397,7 +397,7 @@ export const services: Service[] = [
     id: 'electrician',
     slugs: { ar: 'كهربائي-منزلي-عمان', en: 'electrician-amman' },
     icon: 'Zap',
-    image: '/3.png',
+    image: '/3.webp',
     brands: { ar: [], en: [] },
     ar: {
       title: 'كهربائي منزلي',

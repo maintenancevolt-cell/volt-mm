@@ -32,7 +32,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
       type: 'website',
       images: [
         {
-          url: `${siteConfig.url}/logo_png-01.png`,
+          url: `${siteConfig.url}/logo_png-01.webp`,
           width: 800,
           height: 600,
           alt: locale === 'ar' ? 'اتصل بفولت للصيانة عمان' : 'Contact Volt Maintenance Amman',
@@ -43,7 +43,7 @@ export function generateMetadata({ params }: { params: { locale: string } }): Me
       card: 'summary_large_image',
       title: tr.contact.metaTitle,
       description: tr.contact.metaDesc,
-      images: [`${siteConfig.url}/logo_png-01.png`],
+      images: [`${siteConfig.url}/logo_png-01.webp`],
     },
     robots: {
       index: true,
