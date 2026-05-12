@@ -295,12 +295,9 @@ export default function ServicePage({ service, locale }: { service: Service; loc
         return (
           <section className="py-16 md:py-20 bg-blue-50">
             <div className="container-custom">
-              <h2 className="text-2xl md:text-3xl font-extrabold text-navy text-center mb-3">
-                مقالات متعلقة
+              <h2 className="text-2xl md:text-3xl font-extrabold text-navy text-center mb-10">
+                أسئلة شائعة
               </h2>
-              <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
-                إجابات بالعامية الأردنية على أشهر أسئلتكم عن هاد الجهاز
-              </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
                 {faqItems.map((article) => (
                   <Link
