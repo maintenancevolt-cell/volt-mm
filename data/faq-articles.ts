@@ -7,8 +7,9 @@ export interface FAQSection {
 
 export interface FAQArticle {
   slug: string;
-  serviceId: string; // matches Service.id, or 'home' for general pages
-  title: string; // short title for index listing
+  serviceId: string;
+  relatedServiceIds?: string[];
+  title: string;
   h1: string;
   metaTitle: string;
   metaDescription: string;
@@ -23,7 +24,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'غسالتي-ما-بتشتغل-شو-اسوي',
     serviceId: 'washing-machines',
-    title: 'غسالتي ما بتشتغل - شو أعمل؟',
+    title: 'غسالتي ما بتشتغل، شو أسوي؟',
     h1: 'غسالتي ما بتشتغل - شو أعمل؟',
     metaTitle: 'غسالتي ما بتشتغل شو اسوي | أسباب وحلول سريعة - فولت للصيانة عمان',
     metaDescription: 'غسالتك وقفت فجأة؟ اعرف أسباب توقف الغسالة الأوتوماتيك وشو تعمل قبل ما تتصل بفني. صيانة غسالات بعمان من فولت بنفس اليوم.',
@@ -101,7 +102,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'كم-تكلف-صيانة-الغسالة-بالاردن',
     serviceId: 'washing-machines',
-    title: 'كم تكلف صيانة الغسالة بالأردن؟',
+    title: 'كم تكلف صيانة الغسالة في الأردن؟',
     h1: 'كم تكلف صيانة الغسالة بالأردن؟',
     metaTitle: 'كم تكلف صيانة الغسالة بالاردن | أسعار صيانة غسالات عمان 2026 - فولت للصيانة',
     metaDescription: 'اعرف تكلفة صيانة الغسالة الأوتوماتيك في الأردن وعمان. أسعار واقعية وشفافة لأشهر الأعطال. فولت للصيانة بتعطيك السعر قبل ما تبدأ.',
@@ -176,7 +177,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'ثلاجتي-ما-بتبرد-شو-السبب',
     serviceId: 'refrigerators',
-    title: 'ثلاجتي ما بتبرد - شو السبب؟',
+    title: 'ثلاجتي ما بتبرد، شو السبب؟',
     h1: 'ثلاجتي ما بتبرد - شو السبب وكيف أحل المشكلة؟',
     metaTitle: 'ثلاجتي ما بتبرد شو السبب | أسباب وحلول عملية - فولت للصيانة عمان',
     metaDescription: 'ثلاجتك بطّلت تبرد والأكل رح يفسد؟ اعرف أسباب مشكلة التبريد في الثلاجة وشو تعمل. خدمة تصليح ثلاجات في عمان من فولت بنفس اليوم.',
@@ -247,7 +248,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'كم-تكلف-صيانة-الثلاجة-بعمان',
     serviceId: 'refrigerators',
-    title: 'كم تكلف صيانة الثلاجة بعمان؟',
+    title: 'كم تكلف صيانة الثلاجة في عمان؟',
     h1: 'كم تكلف صيانة الثلاجة بعمان؟',
     metaTitle: 'كم تكلف صيانة الثلاجة بعمان | أسعار تصليح ثلاجات 2026 - فولت للصيانة',
     metaDescription: 'اعرف تكلفة تصليح الثلاجة في عمان. أسعار واقعية وشفافة لأشهر أعطال الثلاجات. فولت للصيانة يحكيلك السعر قبل ما يبدأ.',
@@ -313,7 +314,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'مكيف-ما-بيبرد-شو-المشكلة',
     serviceId: 'air-conditioners',
-    title: 'المكيف ما بيبرد - شو المشكلة؟',
+    title: 'المكيف ما بيبرد، شو المشكلة؟',
     h1: 'المكيف ما بيبرد - شو المشكلة وكيف تحلها؟',
     metaTitle: 'مكيف ما بيبرد شو المشكلة | أسباب وحلول سريعة - فولت للصيانة عمان',
     metaDescription: 'مكيفك شغال بس ما بيبرد؟ اعرف أسباب ضعف التبريد في المكيف وكيف تحلها. صيانة مكيفات في عمان من فولت بنفس اليوم.',
@@ -381,7 +382,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'كم-مرة-لازم-اصلح-المكيف-بالسنة',
     serviceId: 'air-conditioners',
-    title: 'كم مرة لازم تعمل صيانة للمكيف بالسنة؟',
+    title: 'كم مرة لازم أصلح المكيف بالسنة؟',
     h1: 'كم مرة لازم تعمل صيانة دورية للمكيف بالسنة؟',
     metaTitle: 'كم مرة صيانة المكيف بالسنة | صيانة مكيفات دورية عمان - فولت للصيانة',
     metaDescription: 'كم مرة لازم تعمل صيانة للمكيف بالسنة؟ الجواب الكامل مع شو بتشمل الصيانة الدورية للمكيف وليش هي ضرورية. خدمة صيانة مكيفات في عمان.',
@@ -438,7 +439,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'فرن-الغاز-ما-بيشتعل-شو-اسوي',
     serviceId: 'gas-ovens',
-    title: 'فرن الغاز ما بيشتعل - شو أعمل؟',
+    title: 'فرن الغاز ما بيشتعل، شو أسوي؟',
     h1: 'فرن الغاز ما بيشتعل - شو أعمل؟',
     metaTitle: 'فرن الغاز ما بيشتعل شو اسوي | أسباب وحلول - فولت للصيانة عمان',
     metaDescription: 'فرن الغاز ما بيشتعل؟ اعرف أسباب المشكلة وشو تعمل لحالك. صيانة أفران غاز في عمان من فولت بنفس اليوم.',
@@ -503,7 +504,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'جلاية-ما-بتغسل-منيح-شو-السبب',
     serviceId: 'dishwashers',
-    title: 'الجلاية ما بتغسل منيح - شو السبب؟',
+    title: 'الجلاية ما بتغسل منيح، شو السبب؟',
     h1: 'الجلاية ما بتغسل منيح - شو السبب وكيف أحله؟',
     metaTitle: 'جلاية ما بتغسل منيح شو السبب | صيانة جلايات عمان - فولت للصيانة',
     metaDescription: 'جلايتك ما بتغسل الأطباق صح؟ اعرف أسباب المشكلة وشو تعمل. صيانة جلايات في عمان من فولت بنفس اليوم.',
@@ -571,7 +572,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'حماصة-ما-بتجفف-شو-المشكلة',
     serviceId: 'dryers',
-    title: 'الحماصة ما بتجفف - شو المشكلة؟',
+    title: 'الحماصة ما بتجفف، شو المشكلة؟',
     h1: 'الحماصة ما بتجفف الغسيل - شو المشكلة وكيف أحلها؟',
     metaTitle: 'حماصة ما بتجفف شو المشكلة | صيانة حمصات عمان - فولت للصيانة',
     metaDescription: 'حماصتك ما بتجفف الغسيل؟ اعرف أسباب المشكلة وشو تعمل. صيانة نشافات وحمصات في عمان من فولت بنفس اليوم.',
@@ -625,7 +626,7 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'كهربا-البيت-وقعت-شو-اسوي',
     serviceId: 'electrician',
-    title: 'كهربا البيت وقعت - شو أعمل؟',
+    title: 'كهربا البيت وقعت، شو أسوي؟',
     h1: 'كهربا البيت وقعت - شو أعمل خطوة بخطوة؟',
     metaTitle: 'كهربا البيت وقعت شو اسوي | كهربائي منزلي عمان - فولت للصيانة',
     metaDescription: 'كهربا بيتك وقعت وما بتعرف شو تعمل؟ اعرف الخطوات الصح لإعادة الكهربا بأمان. كهربائي منزلي في عمان من فولت بنفس اليوم.',
@@ -703,7 +704,8 @@ export const faqArticles: FAQArticle[] = [
   {
     slug: 'افضل-شركة-صيانة-اجهزة-منزلية-عمان',
     serviceId: 'home',
-    title: 'افضل شركة صيانة أجهزة منزلية في عمان',
+    relatedServiceIds: ['electrician'],
+    title: 'أفضل شركة صيانة أجهزة منزلية في عمان',
     h1: 'افضل شركة صيانة أجهزة منزلية في عمان - ليش فولت للصيانة؟',
     metaTitle: 'افضل شركة صيانة اجهزة منزلية عمان | فولت للصيانة - عمان الأردن',
     metaDescription: 'تبحث عن أفضل شركة صيانة أجهزة منزلية في عمان؟ فولت للصيانة - أكثر من 10 سنوات خبرة، فنيين متخصصين، قطع أصلية، وضمان شامل. اتصل الآن!',
@@ -868,5 +870,7 @@ export function getFAQArticleBySlug(slug: string): FAQArticle | undefined {
 }
 
 export function getFAQArticlesByServiceId(serviceId: string): FAQArticle[] {
-  return faqArticles.filter((a) => a.serviceId === serviceId);
+  return faqArticles.filter(
+    (a) => a.serviceId === serviceId || (a.relatedServiceIds ?? []).includes(serviceId),
+  );
 }
