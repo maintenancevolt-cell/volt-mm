@@ -8,7 +8,10 @@
       "Bash(tasklist)",
       "Bash(ls:*)",
       "Bash(find /c/Users/user/Desktop/volt-mm -maxdepth 2 -type d -not -path */node_modules* -not -path */.next* -not -path */.git*)",
-      "Bash(taskkill /F /IM node.exe)"
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(xmllint --noout \"C:\\\\Users\\\\user\\\\Desktop\\\\volt-mm\\\\public\\\\sitemap.xml\")",
+      "Bash(echo \"Exit code: $?\")",
+      "PowerShell(try { [xml]\\(Get-Content \"C:\\\\Users\\\\user\\\\Desktop\\\\volt-mm\\\\public\\\\sitemap.xml\" -Raw\\); Write-Host \"XML is well-formed\" } catch { Write-Host \"XML error: $_\" })"
     ]
   }
 }
